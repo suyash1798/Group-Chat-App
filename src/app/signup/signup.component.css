@@ -1,0 +1,22 @@
+.container{
+  width: 50%;
+  padding: 5%;
+  background: white;
+  box-shadow: 5px 5px 5px 5px rgba(1,1,1,5);
+  margin-top: 9%;
+  /*background-image: url("https://thumbs.dreamstime.com/z/casual-people-group-chat-bubble-communication-social-network-flat-design-vector-illustration-75119330.jpg");*/
+}
+
+
+.form-control{
+  margin-left: 2%;
+  width: 100%;
+  border: none;
+}
+
+.form-btn{
+  margin-left: 2%;
+  width: 100%;
+  margin-top: 20px;
+}
+

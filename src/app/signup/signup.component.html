@@ -1,0 +1,14 @@
+<div class="container">
+  <form [formGroup]="signupform" (ngSubmit)="signup()">
+    <mat-form-field class="form-control">
+      <input matInput placeholder="Enter your Email" formControlName="email">
+      <mat-error *ngIf="signupform.get('email').invalid && signupform.get('email').touched"></mat-error>
+    </mat-form-field>
+    <mat-form-field class="form-control">
+      <input matInput placeholder="Enter your Password" formControlName="password">
+      <mat-error *ngIf="signupform.get('password').invalid && signupform.get('password').touched"></mat-error>
+    </mat-form-field>
+    <button mat-raised-button color="red" type="submit" class="form-btn">Signup</button>
+    <button mat-raised-button routerLink="/login" class="form-btn">Login</button>
+  </form>
+</div>

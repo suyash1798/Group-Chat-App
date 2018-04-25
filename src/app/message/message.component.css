@@ -1,0 +1,10 @@
+.container{
+  padding-top: 5%;
+}
+button{
+  border-radius: 100px;
+  height: 80px;
+  width: 20%;
+  font-size: 50px;
+  font-family: Calibri;
+}

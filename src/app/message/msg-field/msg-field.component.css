@@ -1,0 +1,15 @@
+.container{
+  width: 100%;
+}
+mat-form-field{
+  width: 70%;
+  background-color: aliceblue ;
+  border-radius: 100px;
+}
+button{
+  border-radius: 100px;
+  height: 80px;
+  width: 20%;
+  font-size: 50px;
+  font-family: Calibri;
+}

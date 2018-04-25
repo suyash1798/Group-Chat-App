@@ -1,0 +1,8 @@
+<div class="container">
+<form [formGroup]="msgform" (ngSubmit)="send()">
+  <mat-form-field>
+    <input matInput placeholder="Enter the text" formControlName="message">
+  </mat-form-field>
+  <button mat-raised-button type="submit">SEND</button>
+</form>
+</div>
